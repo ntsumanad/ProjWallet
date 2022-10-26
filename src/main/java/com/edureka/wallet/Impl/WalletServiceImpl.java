@@ -17,6 +17,7 @@ public class WalletServiceImpl implements WalletService {
 	public WalletDto doTransaction(PaymentTransactionDto transaction) {
 		logger.info("Transaction request received = {} ", transaction);
 		// Implemented
+		System.out.println("Here transaction is for Adding Money to the wallet");
 		return null;
 	}
 
